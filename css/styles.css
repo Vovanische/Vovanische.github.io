@@ -160,7 +160,7 @@ header {
     top: 30px;
 }
 
-.header1{
+.header1 {
     font-family: "Artica Pro", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -171,6 +171,7 @@ header {
     text-transform: uppercase;
     color: #ACADAD;
 }
+
 .banner-text1-position {
     position: absolute;
     width: 850px;
@@ -603,13 +604,15 @@ header {
     top: 2429px;
 }
 
-.blog-header {
+.blog-header-position {
     position: absolute;
     width: 166px;
     height: 68px;
     left: 0px;
     top: 0px;
+}
 
+.header2 {
     font-family: Montserrat, serif;
     font-style: normal;
     font-weight: bold;
@@ -736,11 +739,13 @@ header {
     bottom: 183.54px;
 }
 
-.feedback-form-header {
+.feedback-form-header-position {
     position: absolute;
     left: 16.5px;
     top: 0px;
+}
 
+.header3 {
     font-family: Montserrat, serif;
     font-style: normal;
     font-weight: bold;
@@ -926,29 +931,18 @@ footer {
     position: relative;
     width: 1440px;
     height: 4135px;
-
+    padding: 0;
+    margin: 0;
     background: #FFFFFF;
 }
 
-.blog-page-header{
+.blog-page-header-position {
     position: absolute;
     width: 265px;
     height: 144px;
     left: 0px;
     top: 130px;
 
-    /* Header 1 */
-
-    font-family: "Artica Pro", serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 120px;
-    line-height: 120%;
-    /* identical to box height, or 144px */
-
-    text-transform: uppercase;
-
-    color: #ACADAD;
 }
 
 /*UI-Blog end*/
