@@ -1,0 +1,925 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Artica Pro';
+    src: url('/fonts/ArticaPro.woff2') format('woff2'),
+    url('/fonts/ArticaPro.woff') format('woff'),
+    url('/fonts/ArticaPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artica Pro';
+    src: url('/fonts/ArticaPro-Bold.woff2') format('woff2'),
+    url('/fonts/ArticaPro-Bold.woff') format('woff'),
+    url('/fonts/ArticaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*UI-First-page*/
+
+.UI-First-page {
+    position: relative;
+    width: 1440px;
+    height: 3859px;
+
+    background: #FFFFFF;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    background: #606161;
+}
+
+.padded-logo-1 {
+    position: absolute;
+    width: 100px;
+    left: 76px;
+    top: 0%;
+    bottom: 0%;
+}
+
+.studio-link {
+    position: absolute;
+    width: 67px;
+    left: 216px;
+    top: 39%;
+    bottom: 39%;
+
+    color: #FFFFFF;
+}
+
+
+.games-link {
+    position: absolute;
+    width: 51px;
+    left: 334px;
+    top: 39%;
+    bottom: 39%;
+
+    color: #FFFFFF;
+}
+
+.blog-link {
+    position: absolute;
+    width: 45px;
+    left: 432px;
+    top: 39%;
+    bottom: 39%;
+
+    color: #FFFFFF;
+}
+
+.social-media {
+    position: absolute;
+    left: 70.07%;
+    right: 11.18%;
+    top: 35%;
+    bottom: 35%;
+}
+
+.email-outline-link {
+    position: absolute;
+    width: 30px;
+    right: 401px;
+    top: 35%;
+    bottom: 35%;
+
+}
+
+.facebook-link {
+    position: absolute;
+    width: 30px;
+    right: 341px;
+    top: 35%;
+    bottom: 35%;
+}
+
+.twitter-link {
+    position: absolute;
+    width: 30px;
+    right: 281px;
+    top: 35%;
+    bottom: 35%;
+}
+
+.instagram-link {
+    position: absolute;
+    width: 30px;
+    right: 221px;
+    top: 35%;
+    bottom: 35%;
+}
+
+.linkedin-link {
+    position: absolute;
+    width: 30px;
+    right: 161px;
+    top: 35%;
+    bottom: 35%;
+}
+
+.language-link {
+    position: absolute;
+    width: 41px;
+    right: 80px;
+    top: 39%;
+    bottom: 39%;
+
+    color: #FFFFFF;
+}
+
+.banner {
+    position: absolute;
+    width: 1440px;
+    height: 618px;
+    left: 0px;
+    top: 72px;
+}
+
+.header-banner {
+    position: absolute;
+    width: 603px;
+    height: 144px;
+    left: 0px;
+    top: 30px;
+
+    font-family: "Artica Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 120%;
+    font-stretch: ultra-condensed;
+
+    text-transform: uppercase;
+    color: #ACADAD;
+}
+
+.banner-text1-position {
+    position: absolute;
+    width: 850px;
+    height: 115px;
+    left: 75px;
+    top: 204px;
+
+}
+
+.banner-text2-position {
+    position: absolute;
+    width: 850px;
+    height: 102px;
+    left: 295px;
+    top: 388px;
+}
+
+.banner-text-style {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 141%;
+
+    color: #606161;
+}
+
+.asset-15 {
+    position: absolute;
+    width: 270px;
+    height: 265px;
+    left: 0px;
+    top: 348px;
+}
+
+.asset-16 {
+    position: absolute;
+    width: 265px;
+    height: 431.35px;
+    left: 1175px;
+    top: 53px;
+}
+
+.games {
+    position: absolute;
+    width: 1441px;
+    height: 1550.81px;
+    left: 0px;
+    top: 774px;
+}
+
+.game1 {
+    position: absolute;
+    width: 1440px;
+    height: 523.15px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(359.54deg, #8A63AA 1.36%, #784C9E 99.11%);
+
+}
+
+.group-26 {
+    position: absolute;
+    width: 410px;
+    height: 418.28px;
+    left: 75px;
+    top: 38.37px;
+
+}
+
+.asset-1 {
+    position: absolute;
+    width: 220px;
+    height: 121.69px;
+    left: 0px;
+    top: 0px;
+}
+
+.group-26-text-position {
+    position: absolute;
+    width: 409px;
+    height: 115px;
+    left: 1px;
+    top: 152.47px;
+}
+
+.group-26-text-style {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 141%;
+
+    color: #FFFFFF;
+}
+
+.chat-masters-buttons {
+    position: absolute;
+    width: 320px;
+    height: 120.15px;
+    left: 0px;
+    top: 298.13px;
+}
+
+.chat-masters-watch-button {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 158.49%;
+    letter-spacing: 0.04em;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    border: 1px solid white;
+    background: #784C9E;
+}
+
+.chat-masters-group25 {
+    position: absolute;
+    width: 320px;
+    height: 40.15px;
+    left: 0px;
+    top: 80px;
+}
+
+.app-store-button {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+
+.google-play-button {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 180px;
+    top: 0px;
+}
+
+.chat-masters-app-store-button {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 0px;
+    top: 80px;
+    background: url("/images/app-store__min_ 1.png");
+}
+
+.chat-masters-google-play-button {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 180px;
+    top: 80px;
+}
+
+.mask-group {
+    position: absolute;
+    width: 848.91px;
+    height: 500px;
+    left: 517.09px;
+    top: 0px;
+}
+
+.asset-2-1 {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 0px;
+    top: 398.15px;
+}
+
+.group-16 {
+    position: absolute;
+    width: 610px;
+    height: 414px;
+    left: 177.91px;
+    top: 86.37px;
+}
+
+.asset-7 {
+    position: absolute;
+    width: 67.15px;
+    height: 59.2px;
+    left: 256.09px;
+    top: 68.18px;
+}
+
+.asset-17 {
+    position: absolute;
+    width: 53.14px;
+    height: 46.85px;
+    left: 338.34px;
+    top: 12.52px;
+}
+
+.pillow-queen-game2 {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+    background: #A9CF55;
+}
+
+.pillow-queen-girl {
+    position: absolute;
+    width: 850.25px;
+    height: 500px;
+    left: 514.75px;
+    top: 0px;
+}
+
+.pillow-queen-crown {
+    position: absolute;
+    width: 79.63px;
+    height: 78.92px;
+    left: 1012.99px;
+    top: 66.65px;
+}
+
+.pillow-queen-header {
+    position: absolute;
+    width: 410px;
+    height: 43px;
+    left: 75px;
+    top: 120.5px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.pillow-queen-text {
+    position: absolute;
+    width: 409.21px;
+    height: 23px;
+    left: 75.79px;
+    top: 186.5px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 141%;
+
+    color: #FFFFFF;
+}
+
+.pillow-queen-button {
+    position: absolute;
+    width: 142px;
+    height: 50px;
+    left: 75.79px;
+    top: 250.15px;
+
+    border: 1px solid white;
+    background: #A9CF55;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 158.49%;
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.pillow-queen-group25 {
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 75px;
+    top: 339.81px;
+}
+
+.color-stories-game3 {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 1px;
+    top: 1000px;
+    background: #F290B7;
+
+}
+
+.color-stories-game3-group27 {
+    position: absolute;
+    width: 410px;
+    height: 420.75px;
+    left: 76px;
+    top: 40px;
+}
+
+.color-stories-game3-group27-logo-image {
+    position: absolute;
+    width: 126.55px;
+    height: 126.43px;
+    left: 0px;
+    top: 0px;
+}
+
+.color-stories-game3-text {
+    position: absolute;
+    width: 410px;
+    height: 115px;
+    left: 0px;
+    top: 156.25px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 141%;
+
+    color: #FFFFFF;
+}
+
+.color-stories-buttons {
+    position: absolute;
+    width: 320px;
+    height: 120.15px;
+    left: 0px;
+    top: 300.9px;
+}
+
+.color-stories-group25 {
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 0px;
+    top: 80px;
+}
+
+.color-stories-watch-button {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 158.49%;
+    letter-spacing: 0.04em;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    border: 1px solid white;
+    background: #F290B7;
+}
+
+.color-stories-mask-group {
+    position: absolute;
+    width: 850px;
+    height: 500px;
+    left: 515.75px;
+    top: 0px;
+}
+
+.color-stories-asset-14 {
+    position: absolute;
+    width: 132.02px;
+    height: 162.46px;
+    left: 58.23px;
+    top: 179.69px;
+}
+
+.color-stories-asset-12 {
+    position: absolute;
+    width: 563.22px;
+    height: 465px;
+    left: 190.25px;
+    top: 35px;
+}
+
+.color-stories-asset-13 {
+    position: absolute;
+    width: 141.25px;
+    height: 153.99px;
+    left: 710px;
+    top: 74.51px;
+}
+
+.more-games-soon {
+    position: absolute;
+    width: 190px;
+    height: 23px;
+    left: 633.5px;
+    top: 1527.81px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 141%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #606161;
+}
+
+.blog {
+    position: absolute;
+    width: 1290.5px;
+    height: 538px;
+    left: 74px;
+    top: 2429px;
+}
+
+.blog-header {
+    position: absolute;
+    width: 166px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
+    text-transform: uppercase;
+
+    color: #606161;
+}
+
+.publication1 {
+    position: absolute;
+    width: 410px;
+    height: 300px;
+    left: 0px;
+    top: 128.19px;
+}
+
+.publication-theme {
+    position: absolute;
+
+    left: 6.07%;
+    top: 8%;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 141%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.publication-data {
+    position: absolute;
+    left: 76.07%;
+    right: 6.12%;
+    top: 8%;
+    bottom: 85.33%;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 141%;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.publication-text {
+    position: absolute;
+    left: 6.07%;
+    right: 15.3%;
+    top: 64.78%;
+    bottom: 16.94%;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.publication2 {
+    position: absolute;
+    width: 410px;
+    height: 300px;
+    left: 440px;
+    top: 128.19px;
+}
+
+.publication3 {
+    position: absolute;
+    width: 410px;
+    height: 300px;
+    left: 880.25px;
+    top: 128.19px;
+}
+
+.blog-button {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 0.25px;
+    top: 488px;
+
+    border: 1px solid #FF9D00;
+    background: #FFFFFF;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 158.49%;
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FF9D00;
+}
+
+.feedback-image {
+    position: absolute;
+    width: 621px;
+    height: 548.07px;
+    left: 76px;
+    bottom: 199.54px;
+}
+
+.feedback-form {
+    position: absolute;
+    width: 646.5px;
+    height: 588.5px;
+    left: 720px;
+    bottom: 183.54px;
+}
+
+.feedback-form-header {
+    position: absolute;
+    left: 16.5px;
+    top: 0px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+
+    letter-spacing: 0.04em;
+
+    color: #606161;
+}
+
+.feedback-form-field {
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 141%;
+
+    color: #606161;
+}
+
+.feedback-form-input {
+    width: 410px;
+    height: 50px;
+    padding-left: 24px;
+}
+
+.feedback-form-label-name {
+    position: absolute;
+    top: 76px;
+    left: 16.5px;
+}
+
+.feedback-form-input-name {
+    position: absolute;
+    top: 112px;
+    left: 16.5px;
+}
+
+.feedback-form-label-email {
+    position: absolute;
+    top: 192px;
+    left: 16.5px;
+}
+
+.feedback-form-input-email {
+    position: absolute;
+    top: 228px;
+    left: 16.5px;
+}
+
+.feedback-form-label-message {
+    position: absolute;
+    top: 308px;
+    left: 16.5px;
+}
+
+.feedback-form-input-message {
+    position: absolute;
+    padding-top: 16px;
+    height: 79px;
+    top: 344px;
+    left: 16.5px;
+}
+
+.feedback-form-button {
+    position: absolute;
+    width: 410px;
+    height: 50px;
+    left: 16.5px;
+    top: 469px;
+
+    border: 1px solid #FF9D00;
+    background: #FFFFFF;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 158.49%;
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FF9D00;
+}
+
+.feedback-form-warning {
+    position: absolute;
+    width: 410px;
+    height: 40px;
+    top: 548.5px;
+    left: 16.5px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 141%;
+
+    color: #606161;
+}
+
+.feedback-form-warning span {
+    color: #FF9D00;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    bottom: 0px;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    background: #606161;
+
+}
+
+.footer-group25 {
+    position: absolute;
+    width: 244.5px;
+    height: 30.68px;
+    left: 75.5px;
+    top: 14.66px;
+}
+
+.confidential-politic {
+    position: absolute;
+    right: 28.89%;
+    top: 33.33%;
+
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 141%;
+
+    color: #FFFFFF;
+}
+
+.taku-email {
+    position: absolute;
+    right: 18.54%;
+    top: 33.33%;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 141%;
+
+    color: #FFFFFF;
+}
+
+.copyright {
+    position: absolute;
+    right: 5.14%;
+    top: 33.33%;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 141%;
+
+    color: #FFFFFF;
+}
+
+/*UI-First-page*/
+
+/*UI-Blog*/
+
+/*UI-Blog*/
