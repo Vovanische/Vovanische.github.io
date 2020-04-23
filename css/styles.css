@@ -19,7 +19,7 @@
     font-style: normal;
 }
 
-/*UI-First-page*/
+/*UI-First-page start*/
 
 .UI-First-page {
     position: relative;
@@ -325,7 +325,6 @@ header {
     height: 40px;
     left: 0px;
     top: 80px;
-    background: url("/images/app-store__min_ 1.png");
 }
 
 .chat-masters-google-play-button {
@@ -918,8 +917,16 @@ footer {
     color: #FFFFFF;
 }
 
-/*UI-First-page*/
+/*UI-First-page end*/
 
-/*UI-Blog*/
+/*UI-Blog start*/
 
-/*UI-Blog*/
+.UI-Blog-size {
+    position: relative;
+    width: 1440px;
+    height: 3859px;
+
+    background: #FFFFFF;
+}
+
+/*UI-Blog end*/
