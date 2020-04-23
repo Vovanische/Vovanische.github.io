@@ -5,9 +5,77 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
     <title>UI-Blog</title>
 </head>
-<body>
+<body class="UI-Blog-size">
+<header>
+    <img src="images/padded_logo_1.png" alt="_padded_logo 1" class="padded-logo-1">
 
+    <nav id="nav-menu">
+        <a href="#">
+            <div class="studio-link">Студия</div>
+        </a>
+        <a href="#">
+            <div class="games-link">Игры</div>
+        </a>
+        <a href="#">
+            <div class="blog-link">Блог</div>
+        </a>
+    </nav>
+
+    <div id="social-media">
+        <a href="#">
+            <img src="images/Icons/Material UI/email-outline.png" alt="email-outline" class="email-outline-link">
+        </a>
+        <a href="https://www.facebook.com/">
+            <img src="images/Icons/Social/facebook.png" alt="facebook" class="facebook-link">
+        </a>
+        <a href="https://twitter.com/">
+            <img src="images/Icons/Social/twitter.png" alt="twitter" class="twitter-link">
+        </a>
+        <a href="https://www.instagram.com/">
+            <img src="images/Icons/Social/instagram.png" alt="instagram" class="instagram-link">
+        </a>
+        <a href="https://www.linkedin.com/">
+            <img src="images/Icons/Social/linkedin.png" alt="linkedin" class="linkedin-link">
+        </a>
+        <a href="#">
+            <div class="language-link">ENG</div>
+        </a>
+    </div>
+</header>
+
+
+<img src="images/Asset%202feedback%201.png" alt="feedback_image" class="feedback-image">
+<form action="" class="feedback-form">
+    <legend class="feedback-form-header">Давай поговорим</legend>
+    <label for="person_name" class="feedback-form-field feedback-form-label-name">Ваше имя</label>
+    <input type="text" name="name" id="person_name" placeholder="Имя"
+           class="feedback-form-field feedback-form-input-name feedback-form-input">
+
+    <label for="person_email" class="feedback-form-field feedback-form-label-email">Ваш email</label>
+    <input type="text" name="email" id="person_email" placeholder="user@mail.com"
+           class="feedback-form-field feedback-form-input-email feedback-form-input">
+
+    <label for="person_message" class="feedback-form-field feedback-form-label-message">Сообщение</label>
+    <textarea name="message" id="person_message"
+              class="feedback-form-field
+              feedback-form-input-message
+              feedback-form-input" placeholder="Привет! Поиграем?"></textarea>
+    <button type="button" class="feedback-form-button" onclick='location.href="#"'>отправить</button>
+    <p class="feedback-form-warning">
+        Нажимая кнопку "Отправить", вы соглашаетесь с нашей <span>Политикой конфиденциальности</span>
+    </p>
+</form>
+<footer>
+    <div class="footer-group25">
+        <img src="images/app-store__min_%201.png" alt="app_store" class="app-store-button">
+        <img src="images/google-play__min_%201.png" alt="google_play" class="google-play-button">
+    </div>
+    <a href="#"><p class="confidential-politic">Политика конфиденциальности</p></a>
+    <a href="#"><p class="taku-email">studio@taku.by</p></a>
+    <a href="#"><p class="copyright">&copy; 2020 — Studio Taku</p></a>
+</footer>
 </body>
 </html>
