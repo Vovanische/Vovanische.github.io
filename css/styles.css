@@ -931,8 +931,7 @@ footer {
     position: relative;
     width: 1440px;
     height: 4135px;
-    padding: 0;
-    margin: 0;
+
     background: #FFFFFF;
 }
 
@@ -942,7 +941,6 @@ footer {
     height: 144px;
     left: 0px;
     top: 130px;
-
 }
 
 /*UI-Blog end*/
